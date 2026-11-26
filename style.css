@@ -5,11 +5,11 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f0f0f0;
+  background: #1e1e2f;
 }
 
 .calculator {
-  background: #ffffff;
+  background: #2c2c3e;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -36,16 +36,17 @@ button {
   font-size: 20px;
   border: none;
   border-radius: 5px;
-  background: #e0e0e0;
+  background: #3d3d55;
+  color: #ffffff;
   cursor: pointer;
 }
 
 button:hover {
-  background: #d0d0d0;
+  background: #57577a;
 }
 
 .equals {
   grid-column: span 2;
-  background: #4caf50;
+  background: #ff9800;
   color: white;
 }
