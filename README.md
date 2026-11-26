@@ -1,6 +1,6 @@
 # Simple Calculator
 
-Description: A basic calculator built with HTML, CSS and JavaScript.
+Description: A basic calculator that also supports keyboard input.
 
 ## How to run
 Open `index.html` in any web browser.

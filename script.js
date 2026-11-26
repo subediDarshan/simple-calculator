@@ -19,3 +19,17 @@ function calculate() {
     display.value = "Error";
   }
 }
+
+// Keyboard support
+document.addEventListener("keydown", function (event) {
+  const key = event.key;
+  if ("0123456789+-*/.%".includes(key)) {
+    appendValue(key);
+  } else if (key === "Enter" || key === "=") {
+    calculate();
+  } else if (key === "Backspace") {
+    deleteLast();
+  } else if (key === "Escape") {
+    clearDisplay();
+  }
+});
